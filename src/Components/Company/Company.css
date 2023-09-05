@@ -1,0 +1,8 @@
+.CombgImg{
+    background-image: url('../../assets/images/company-banner.jpg')!important;
+    height: 80vh !important;
+    width: 100vw !important;
+    background-size: cover !important;
+    background-repeat: no-repeat, repeat;
+    position: relative;
+}

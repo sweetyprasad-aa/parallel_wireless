@@ -1,0 +1,9 @@
+.ResbgImg{
+    position: relative;
+    background-image: url('../../assets/images/products-hero.jpg') !important;
+    /* background-image: url("https: //www.parallelwireless.com/wp-content/uploads/hero-solutions.jpg") !important; */
+    height: 80vh !important;
+    width: 100vw !important;
+    background-size: cover !important;
+    background-repeat: no-repeat, repeat;
+}

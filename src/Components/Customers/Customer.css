@@ -1,0 +1,64 @@
+.cusbgImg {
+  position: relative;
+  background-image: url("../../assets/images/hero-customers.jpg") !important;
+  height: 75vh !important;
+  width: 100vw !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+.custem {
+  background-color: #f5f5f5;
+}
+.customIcon {
+  padding: 2% !important;
+  width: 15% !important;
+}
+
+.case-main {
+  padding: 6%;
+}
+.case-img {
+  width: 39vw;
+}
+.main-case-img {
+  width: 100vw;
+  height: 100vh;
+}
+.main-mid {
+  position: relative;
+}
+
+.case-opti {
+  color: black;
+  width: 50%;
+  height: 64%;
+  position: absolute;
+  top: 4%;
+  left: 7%;
+  background-color: white;
+  opacity: 0.9;
+  width: 86%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  height: 72%;
+}
+.row-gap {
+  padding: 2%;
+}
+.ol-case {
+  color: orangered;
+}
+.num-case {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+}
+.btn-cse {
+  width: 16%;
+}
+.iframe-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4%;
+}

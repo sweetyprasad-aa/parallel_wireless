@@ -1,0 +1,66 @@
+.navbarContainer{
+    max-width: 100%;
+    width: 100vw;
+    padding: 1rem;
+    /* position: sticky; */
+    box-shadow: 1px 2px 3px lightgray;
+}
+
+.logoImg{
+    height: auto;
+    width: 250px;
+}
+.navbar-nav{
+    padding: 0 4rem;
+}
+.nav-item{
+    text-decoration: none;
+    list-style-type: none;
+    color:#828282;
+    font-weight: 500;
+    padding:  0 15px;
+}
+.nav-item:hover {
+    color: #FD3D1D;
+    border-bottom: 2px solid #FD3D1D;
+}
+.search:hover{
+    border: none;
+}
+.btn{
+   color: #FD3D1D;
+   border: 2px solid #FD3D1D;
+   font-weight: 600;
+   letter-spacing: 1px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #FD3D1D;
+}
+.custom-dropdown-toggle::after {
+    /* display: none;  */
+    /* Hide the ::after pseudo-element that contains the icon */
+}
+/* dropdown */
+/* .productsTech {
+    width: 98vw;
+    margin-left: -35vw;
+} */
+
+/* .productsTech-main {
+    margin-top: 19%;
+}
+
+.drop-main {
+    position: relative;
+}
+
+.drop-inside {
+    padding: 10px !important;
+    position: absolute;
+    top: 1%
+}
+
+.text-inside {
+    color: whitesmoke;
+} */

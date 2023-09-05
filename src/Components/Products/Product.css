@@ -1,0 +1,32 @@
+.ProbgImg{
+position: relative;
+background-image: url('../../assets/images/products-hero.jpg') !important;
+height: 80vh !important;
+width: 100vw !important;
+background-size: cover !important;
+background-repeat: no-repeat, repeat;
+}
+.prodImg{
+    background-image: url('../../assets/images/featured-case-study-background.jpg');
+    height: auto;
+    width: 100%;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4% 70px;
+}
+.prod-inner-content{
+    height: auto;
+    width: 50%;
+    background-color: black;
+    padding: 10px 5px;
+    color: white;
+    opacity: 0.8;
+}
+.prodHeading{
+    font-weight: 500;
+}
+.prodPara{
+    font-size: 20px;
+    line-height: 1.5;
+}

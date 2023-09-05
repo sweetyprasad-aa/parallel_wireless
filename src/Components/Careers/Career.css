@@ -1,0 +1,8 @@
+.CareerbgImg{
+    position: relative;
+    background-image: url('../../assets/images/featured-case-study-background.jpg') !important;
+    height: 80vh !important;
+    width: 100vw !important;
+    background-size: cover !important;
+    background-repeat: no-repeat, repeat;
+}

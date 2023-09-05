@@ -1,0 +1,8 @@
+.urbanbgImg{
+    position: relative;
+    background-image: url('../../assets/images/technologies-hero.jpg') !important;
+    height: 80vh !important;
+    width: 100vw !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}

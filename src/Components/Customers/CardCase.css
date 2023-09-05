@@ -1,0 +1,37 @@
+.custbgImg{
+    background-image: url('../../assets/images/how-to-buy.jpg');
+    height: auto;
+    width: 100%;
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.card-row{
+    padding: 50px 8%;
+    opacity: 0.9;
+}
+.cardCase-heading{
+    color: black!important;
+    font-weight: 500;
+}
+.Card-list{
+    color: black;
+    list-style: none;
+}
+
+.Card-list li{
+    list-style-position: inside;
+    font-size: 20px;
+    padding: 5px 0px;
+}
+.cardPara{
+    font-size: 20px;
+    padding: 3px 10px;
+}
+cardBtn{
+    margin-left: 20%;
+}

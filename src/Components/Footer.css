@@ -1,0 +1,45 @@
+.socialIcon{
+    font-size: 22px;
+    color: #FD3D1D;
+}
+.follow{
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-heading{
+    font-weight: bold;
+    font-size: 23px;
+    border-bottom: 1px solid black;
+}
+.footer-list a{
+    text-decoration: none;
+    color:#000;
+    line-height: 2;
+}
+.footer-list a:hover{
+    color: #FD3D1D;
+}
+.footer-contect-icon{
+    font-size: 22px;
+}
+.copyRight{
+    padding: 0px 15px;
+    font-size: 18px;
+}
+.footer-menu-item{
+    padding: 0 1px;
+    line-height: 1.33;
+}
+.footer-menu-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 0 8px;
+}
+.footer-menu-list a:hover{
+    color: #FD3D1D;
+}
+.footer-menu-list::after{
+    content: "|";
+    font-weight: 600;
+}
