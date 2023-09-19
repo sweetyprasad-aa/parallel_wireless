@@ -1,54 +1,55 @@
 import React from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
 import slideImg1 from '../../assets/images/hero-city.jpg';
 import slideImg2 from '../../assets/images/hero-city_2.jpg';
 import './Slider.css';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-
-import { Pagination, Navigation } from 'swiper/modules';
 
 const Slider= ()=> {
   return (
     <>
-      <div className='hero-slider'>
-          <Swiper
-            slidesPerView={1}
-            // spaceBetween={30}
-            loop={true}
-            pagination={{
-            clickable: true,
-          }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className="mySwiper">
-            <SwiperSlide><img src={slideImg1} alt='sliderImg'/>
-            <div className='container hero-content '>
-              <div className='row hero-para'>
+        <div id="carouselExampleCaptions" className="carousel slide">
+          <div className="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src={slideImg1} className ="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <div className='row hero-para text-start text-dark'>
                 <div>
                   <h1 className='heading'>Reimagine your<br/>
                     <strong className='hero-heading'>NETWORK</strong><br/>Reimagine your<br/>
                       <strong className='hero-heading'>ECONOMICS</strong></h1>
-                  <p className=" hero-para2"><strong>Everything you need to know about OpenRAN.</strong><br/>
+                  <p className=" hero-para2"><strong>Everything you need to know about <br/> OpenRAN.</strong><br/>
                     An Ebook from Parallel Wireless.</p>
                     <button className='sliderBtn btn-lg'>Download Now</button>
                 </div>
               </div>
-            </div>
-            </SwiperSlide>
-            <SwiperSlide><img src={slideImg2} alt='sliderImg'/>
-              <div className='container hero-content '>
-              <div className='row hero-para'>
-                  <p>Bringing the first<strong className='hero-heading'><br/>Open RAN</strong><br/>
-                    to Indonesia</p>    
               </div>
-              <button className='sliderBtn px-5 py-3'>Learn More</button>
             </div>
-            </SwiperSlide>
-          </Swiper>
+            <div className="carousel-item">
+              <img src={slideImg2} className="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <div className='row hero-para text-start text-dark'>
+                  <div>
+                  <p className=" hero-para2">Bringing the first<strong className='hero-heading'><br/>Open RAN</strong><br/>
+                    to Indonesia</p> 
+                    <button className='sliderBtn btn-lg'>Learn More</button>   
+                </div>  
+            </div>
+              </div>
+            </div>
+          </div>
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
       </div>
+
     </>
   );
 }

@@ -10,9 +10,9 @@
     height: auto;
     width: 250px;
 }
-.navbar-nav{
+/* .navbar-nav{
     padding: 0 4rem;
-}
+} */
 .nav-item{
     text-decoration: none;
     list-style-type: none;
@@ -36,10 +36,6 @@
 .btn:hover{
     color: #fff;
     background-color: #FD3D1D;
-}
-.custom-dropdown-toggle::after {
-    /* display: none;  */
-    /* Hide the ::after pseudo-element that contains the icon */
 }
 /* dropdown */
 /* .productsTech {

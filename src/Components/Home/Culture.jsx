@@ -70,33 +70,33 @@ const Culture = ()=>{
                     <div className="row">
                         <div className="col-sm-6 ">
                             <h3>5G Starts Here</h3>
-                            <p className="culturePara px-2">Through open collaboration with OpenRAN ecosystem, we’ve created the world’s first and largest fully compliant OpenRAN portfolio that delivers the next generation of wireless infrastructure at a much lower cost, ensuring more equal access to 5G globally. Our software-defined and interoperable OpenRAN architecture was designed from the ground up to reduce complexity and drive out cost from every aspect from the RAN to the Core. We pride ourselves on offering a fully automated outdoor or indoor coverage and capacity solutions that are easy and cost-effective to deploy and maintain and are software upgradable to 5G.</p>
+                            <p className="culturePara px-1">Through open collaboration with OpenRAN ecosystem, we’ve created the world’s first and largest fully compliant OpenRAN portfolio that delivers the next generation of wireless infrastructure at a much lower cost, ensuring more equal access to 5G globally. Our software-defined and interoperable OpenRAN architecture was designed from the ground up to reduce complexity and drive out cost from every aspect from the RAN to the Core. We pride ourselves on offering a fully automated outdoor or indoor coverage and capacity solutions that are easy and cost-effective to deploy and maintain and are software upgradable to 5G.</p>
                             <button className="cardBtn">Learn More</button>
                         </div>
-                        <div className="col-sm-6 px-2 py-3">
-                            <img src={cultureImg4} alt="img" className="cultureImgs" />
+                        <div className="col-sm-6">
+                            <img src={cultureImg4} alt="img" className="img-fluid" max-width={'100%'} />
                         </div>
                     </div>
                     {/*------- 2nd Row------- */}
-                    <div className="row p-4">
-                        <div className="col-sm-6 px-2 py-3">
-                            <img src={cultureImg5} alt="img" className="cultureImgs"/>
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <img src={cultureImg5} alt="img" className="img-fluid" max-width={'100%'}/>
                         </div>
                         <div className="col-sm-6">
                             <h3>Reimagine Your Network</h3>
-                            <p className="culturePara px-2">Parallel Wireless created the world’s only ALL G (5G/4G/3G/2G) software-enabled OpenRAN architecture to make delivery of wireless coverage or capacity use cases, especially capital intensive 5G, affordable as it enables mobile operators and industries to unleash the full value of connectivity. With unified across 5G/4G/3G/2G and Wi-Fi cloud-native architecture that is open and standardized across five key domains – RAN, Edge, Core, Orchestration and Analytics – we are committed to the 5G vision of bringing Internet to every person and organization for a truly connected world at much lower cost to deploy and maintain.</p>
+                            <p className="culturePara px-1">Parallel Wireless created the world’s only ALL G (5G/4G/3G/2G) software-enabled OpenRAN architecture to make delivery of wireless coverage or capacity use cases, especially capital intensive 5G, affordable as it enables mobile operators and industries to unleash the full value of connectivity. With unified across 5G/4G/3G/2G and Wi-Fi cloud-native architecture that is open and standardized across five key domains – RAN, Edge, Core, Orchestration and Analytics – we are committed to the 5G vision of bringing Internet to every person and organization for a truly connected world at much lower cost to deploy and maintain.</p>
                             <button className="cardBtn">Learn More</button>
                         </div>
                     </div>
                     {/* --------3rd Row--------- */}
-                    <div className="row p-4">
+                    <div className="row">
                        <div className="col-sm-6">
                             <h3>Reimagine Your Economics</h3>
-                            <p className="culturePara px-2">The company’s end-to-end ALL G cloud-native OpenRAN portfolio is designed to help our customers modernize their networks, reduce deployment cost and complexity, increase operational efficiency, find new revenue streams and start deploying multi-vendor 5G networks today. Software innovation and openness across 5G/4G/3G /2G and Wi-Fi coupled with network automation drives TCO reduction for low-density or high density use cases of up to 60% for CAPEX and 65% for OPEX.</p>
+                            <p className="culturePara px-1">The company’s end-to-end ALL G cloud-native OpenRAN portfolio is designed to help our customers modernize their networks, reduce deployment cost and complexity, increase operational efficiency, find new revenue streams and start deploying multi-vendor 5G networks today. Software innovation and openness across 5G/4G/3G /2G and Wi-Fi coupled with network automation drives TCO reduction for low-density or high density use cases of up to 60% for CAPEX and 65% for OPEX.</p>
                             <button className="cardBtn">Hear from Our Customers</button>
                        </div>
-                        <div className="col-sm-6 px-2 py-3">
-                            <img src={cultureImg6} alt="img" className="cultureImgs"/>
+                        <div className="col-sm-6">
+                            <img src={cultureImg6} alt="img" className="img-fluid" max-width={'100%'} />
                         </div> 
                     </div>
                 </div>

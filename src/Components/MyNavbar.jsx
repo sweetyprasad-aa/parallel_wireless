@@ -1,22 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./Navbar.css";
 import {Link as RouterLink}  from "react-router-dom";
 import logo from '../assets/images/parallel_wireless.jpg';
+import {FaSearch} from 'react-icons/fa';
 
 const MyNavbar = () => {
-    const[solutionopen, setSolution] = useState(false)
-
-    const solutionshandleToggle = ()=>{
-     setSolution(!solutionopen);
-    };
- 
-    const solutionshandleMouseEnter = ()=>{
-     setSolution(true);
-    };
- 
-    const solutionshandleMouseLeave = ()=>{
-     setSolution(false);
-    }
   return <>
     <nav className="navbar navbar-expand-sm navbar">
             <div className="container-fluid navbarContainer">
@@ -27,17 +15,12 @@ const MyNavbar = () => {
                 <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="collapsibleNavbar">
-                <div className="navbar-nav">
-                    <RouterLink to="/solution" exact="true" activeclassname="active" className="a dropdown nav-item" onMouseOver={solutionshandleMouseEnter} onMouseLeave={solutionshandleMouseLeave}>
-                      <div className="dropdown-toggle custom-dropdown-toggle" 
-                          onClick={solutionshandleToggle}>Solutions</div>
-                        <ul className={`dropdown-menu productsTech-main ${solutionopen ? 'show' : ''}`}>
-                            <li><a className="dropdown-item" href="/urban">Urban</a></li>
-                            <li><a className="dropdown-item" href="/rural">Rural</a></li>
-                            <li><a className="dropdown-item" href="/private">Private ITE</a></li>
-                        </ul>
+                  <ul className="navbar-nav mx-5"> 
+                 
+                    <RouterLink activeclassname="active"
+                        to="/solution"
+                        exact="true" className='nav-item'>Solutions
                     </RouterLink>
-                    </div>
                     <RouterLink activeclassname="active"
                         to="/product"
                         exact="true" className='nav-item'>Products & Technologies
@@ -60,11 +43,11 @@ const MyNavbar = () => {
                         to="/resource"
                         exact="true" className='nav-item'>Resources</RouterLink>
                 
-                    {/* <RouterLink className='nav-item'><FaSearch  className='search'/>
+                    <RouterLink className='nav-item'><FaSearch  className='search'/>
                     </RouterLink>
-                   */}
+                  
                   <RouterLink className='nav-item btn px-1 py-2'>Contact Us</RouterLink> 
-
+                </ul>
                 </div>
             </div>
         </nav>
