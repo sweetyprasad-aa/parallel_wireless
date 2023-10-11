@@ -58,8 +58,8 @@ const Product = ()=>{
 
         <section className="prodImg"> 
             <div className="row mt-5">
-                <div clo-sm-12>
-                    <div className="prod-inner-content">
+                <div className="col-sm-12">
+                    <div className="prod-inner-content p-4 ">
                         <h2 className="prodHeading">Vodafone Case Study</h2>
                         <p className="prodPara">Learn how the Parallel Wireless ALL G OpenRAN network solution helped Vodafone modernize their network and reduce CAPEX and OPEX.</p>
                         <button className="sliderBtn">Learn More <FaCloudDownloadAlt/></button>
